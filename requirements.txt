@@ -1,4 +1,3 @@
-cat > requirements.txt <<'EOF'
 pandas
 numpy
 scikit-learn==1.6.1
@@ -13,4 +12,3 @@ seaborn
 python-dotenv
 joblib
 plotly
-EOF
