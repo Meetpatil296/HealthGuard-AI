@@ -1,7 +1,8 @@
+cat > requirements.txt <<'EOF'
 pandas
 numpy
-scikit-learn
-tensorflow
+scikit-learn==1.6.1
+tensorflow==2.21.0
 shap
 groq
 supabase
@@ -12,3 +13,4 @@ seaborn
 python-dotenv
 joblib
 plotly
+EOF
